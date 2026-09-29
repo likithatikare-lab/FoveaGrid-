@@ -3,36 +3,10 @@ node_modules/
 .venv/
 venv/
 __pycache__/
+*.pyc
 
-# Build files
+# Environment & Builds
+.env
 dist/
 build/
-.next/
-
-# Environment files
-.env
-.env.local
-
-# Large datasets
-data/
-datasets/
-*.bin
-*.pcd
-*.ply
-*.las
-*.laz
-
-# Large ML models
-*.pth
-*.pt
-*.onnx
-
-# IDE
-.vscode/
-.idea/
-
-# macOS
 .DS_Store
-
-# Logs
-*.log
